@@ -103,7 +103,7 @@ app.get('/user3/:id', function(req, res) {
 
 //Check out! http://localhost:3000/user5/1
 //Content-type: application/json; charset=utf-8
-//Vulnerable: ???
+//Vulnerable: no - JSON not exploitable in modern browsers: https://koumudi-garikipati.medium.com/json-based-xss-84089141c136  along with guidance from the OWASP XSS cheat sheet: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html#output-encoding-for-javascript-contexts
 app.get('/user5/:id', function(req, res) {
     const { id } = req.params;
     const userNum = parseInt(id, 10);
