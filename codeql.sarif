@@ -3172,6 +3172,339 @@
           "text" : "user-provided value"
         }
       } ]
+    }, {
+      "ruleId" : "js/reflected-xss",
+      "ruleIndex" : 72,
+      "rule" : {
+        "id" : "js/reflected-xss",
+        "index" : 72
+      },
+      "message" : {
+        "text" : "Cross-site scripting vulnerability due to a [user-provided value](1)."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app.js",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 136,
+            "startColumn" : 14,
+            "endColumn" : 39
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "af955467d8ef402d:1",
+        "primaryLocationStartColumnFingerprint" : "9"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.js",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 126,
+                  "startColumn" : 11,
+                  "endColumn" : 13
+                }
+              },
+              "message" : {
+                "text" : "id"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.js",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 126,
+                  "startColumn" : 9,
+                  "endColumn" : 28
+                }
+              },
+              "message" : {
+                "text" : "id"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.js",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 136,
+                  "startColumn" : 35,
+                  "endColumn" : 37
+                }
+              },
+              "message" : {
+                "text" : "id"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.js",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 136,
+                  "startColumn" : 14,
+                  "endColumn" : 39
+                }
+              },
+              "message" : {
+                "text" : "`Unknow ...  ${id}`"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app.js",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 126,
+            "startColumn" : 11,
+            "endColumn" : 13
+          }
+        },
+        "message" : {
+          "text" : "user-provided value"
+        }
+      } ]
+    }, {
+      "ruleId" : "js/reflected-xss",
+      "ruleIndex" : 72,
+      "rule" : {
+        "id" : "js/reflected-xss",
+        "index" : 72
+      },
+      "message" : {
+        "text" : "Cross-site scripting vulnerability due to a [user-provided value](1)."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app.js",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 160,
+            "startColumn" : 17,
+            "endColumn" : 62
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "d6f2953469311351:1",
+        "primaryLocationStartColumnFingerprint" : "6"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.js",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 146,
+                  "startColumn" : 13,
+                  "endColumn" : 23
+                }
+              },
+              "message" : {
+                "text" : "providerId"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.js",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 146,
+                  "startColumn" : 11,
+                  "endColumn" : 38
+                }
+              },
+              "message" : {
+                "text" : "providerId"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.js",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 160,
+                  "startColumn" : 50,
+                  "endColumn" : 60
+                }
+              },
+              "message" : {
+                "text" : "providerId"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.js",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 160,
+                  "startColumn" : 17,
+                  "endColumn" : 62
+                }
+              },
+              "message" : {
+                "text" : "`Could  ... derId}`"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app.js",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 146,
+            "startColumn" : 13,
+            "endColumn" : 23
+          }
+        },
+        "message" : {
+          "text" : "user-provided value"
+        }
+      } ]
+    }, {
+      "ruleId" : "js/reflected-xss",
+      "ruleIndex" : 72,
+      "rule" : {
+        "id" : "js/reflected-xss",
+        "index" : 72
+      },
+      "message" : {
+        "text" : "Cross-site scripting vulnerability due to a [user-provided value](1)."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app.js",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 205,
+            "startColumn" : 18,
+            "endColumn" : 54
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "889c8bad56f1ac67:1",
+        "primaryLocationStartColumnFingerprint" : "9"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.js",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 205,
+                  "startColumn" : 39,
+                  "endColumn" : 52
+                }
+              },
+              "message" : {
+                "text" : "req.query.num"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.js",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 205,
+                  "startColumn" : 18,
+                  "endColumn" : 54
+                }
+              },
+              "message" : {
+                "text" : "`failed ... y.num}`"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app.js",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 205,
+            "startColumn" : 39,
+            "endColumn" : 52
+          }
+        },
+        "message" : {
+          "text" : "user-provided value"
+        }
+      } ]
     } ],
     "newlineSequences" : [ "\r\n", "\n", " ", " " ],
     "columnKind" : "utf16CodeUnits",
@@ -3183,7 +3516,7 @@
         },
         "ruleId" : "js/summary/lines-of-code",
         "ruleIndex" : 84,
-        "value" : 91
+        "value" : 155
       }, {
         "rule" : {
           "id" : "js/summary/lines-of-user-code",
@@ -3191,7 +3524,7 @@
         },
         "ruleId" : "js/summary/lines-of-user-code",
         "ruleIndex" : 85,
-        "value" : 91
+        "value" : 155
       } ],
       "semmle.formatSpecifier" : "sarif-latest"
     }
