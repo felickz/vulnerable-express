@@ -3516,7 +3516,7 @@
         },
         "ruleId" : "js/summary/lines-of-code",
         "ruleIndex" : 84,
-        "value" : 155
+        "value" : 162
       }, {
         "rule" : {
           "id" : "js/summary/lines-of-user-code",
@@ -3524,7 +3524,7 @@
         },
         "ruleId" : "js/summary/lines-of-user-code",
         "ruleIndex" : 85,
-        "value" : 155
+        "value" : 162
       } ],
       "semmle.formatSpecifier" : "sarif-latest"
     }

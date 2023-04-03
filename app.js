@@ -214,6 +214,15 @@ function middleware3(req, res, next) {
     }
 }
 
+// exploitable, but UNUSED!
+function middleware4(req, res, next) {
+  if(req.query.num >= 4) {
+      next();
+  } else {
+      res.send(`failed validation ${req.query.num}`);
+  }
+}
+
 function combination(req, res, next) {
     middleware1(req, res, function () {
         middleware2(req, res, function () {
