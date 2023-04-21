@@ -119,6 +119,49 @@ app.get('/user5/:id', function(req, res) {
     }
   });
 
+//Check out! http://localhost:3000/user6/1
+//Content-type: text/html; charset=utf-8
+//Vulnerable: yes - js/reflected-xss
+app.get('/user6/:id', function(req, res) {
+  const { id } = req.params;
+  const userNum = parseInt(id, 10);
+  try {
+      if (!isValidUserId(userNum))
+      throw new Error('not a valid user');
+      else
+      // TODO: do something exciting
+      ;
+  } catch (error) {
+            // BAD: a request parameter is incorporated without validation into the response
+    res.send(`Unknown user: " + ${id}`);
+  }
+});
+
+//Close Repro w/ Async
+//Check out! http://localhost:3000/user7/1
+//Content-type: text/html; charset=utf-8
+//Vulnerable: yes - js/reflected-xss
+app.get('/user7/:id', async function(req, res) {
+    // Inject Provider
+    const { providerId } = req.params;
+    if (providerId) {
+      try {
+        const providers = await mediator.call('my:getAllProviders');
+        const provider = providers?.find(
+          p => p.id === parseInt(providerId, 10),
+        );
+        if (!provider) {
+          return res.status(404).send(`Provider not found: ${otherId}`);
+        }
+        req.provider = provider;
+      } catch (e) {
+        return res
+          .status(500)
+          .send(`Could not retrieve providers: ${providerId}`);
+      }
+    }
+  });
+
 
 //Check out! http://localhost:3000/users/1/reviews/2
 app.get('/users/:userId/reviews/:reviewId', (req, res) => {
@@ -144,6 +187,57 @@ app.get('/users/:userId/books/:bookId', (req, res) => {
     
     res.send(req.params)
   })
+
+
+  function middleware1(req, res, next) {
+    if(req.query.num >= 1) {
+        next();
+    } else {
+        res.json({message: "failed validation 1"});
+    }
+}
+
+// exploitable!
+function middleware2(req, res, next) {
+    if(req.query.num >= 2) {
+        next();
+    } else {
+        res.send(`failed validation ${req.query.num}`);
+    }
+}
+
+function middleware3(req, res, next) {
+    if(req.query.num >= 3) {
+        next();
+    } else {
+        res.json({message: "failed validation 3"});
+    }
+}
+
+// exploitable, but UNUSED!
+function middleware4(req, res, next) {
+  if(req.query.num >= 4) {
+      next();
+  } else {
+      res.send(`failed validation ${req.query.num}`);
+  }
+}
+
+function combination(req, res, next) {
+    middleware1(req, res, function () {
+        middleware2(req, res, function () {
+            middleware3(req, res, function () {
+                next();
+            })
+        })
+    })
+}
+
+//Check out! http://localhost:3000/handler?num=1
+// Vulnerable: js/reflected-xss in middleware2
+app.get('/handler', combination, function (req, res) {
+  res.send('Passed All Validation!');
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
