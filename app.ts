@@ -5,14 +5,13 @@
 
 //Docs ( lists content-types that can be used for XSS) - https://portswigger.net/web-security/cross-site-scripting/cheat-sheet#content-types
 
-
-const express = require('express')
-const app = express()
+import express, { Express, NextFunction, Request, Response } from 'express';
+const app: Express = express();
 const port = 3000
 
 //Check out! http://localhost:3000/
 //Content-Type: text/html; charset=utf-8
-app.get('/', (req, res) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Hello World!')
 })
 
@@ -141,17 +140,14 @@ app.get('/user6/:id', function(req, res) {
 //Check out! http://localhost:3000/user7/1
 //Content-type: text/html; charset=utf-8
 //Vulnerable: yes - js/reflected-xss
-app.get('/user7/:id', async function(req, res) {
+app.get('/user7/:id', async function(req: any, res) {
     // Inject Provider
     const { providerId } = req.params;
     if (providerId) {
       try {
-        const providers = await mediator.call('my:getAllProviders');
-        const provider = providers?.find(
-          p => p.id === parseInt(providerId, 10),
-        );
+        const provider =  parseInt(providerId, 10)
         if (!provider) {
-          return res.status(404).send(`Provider not found: ${otherId}`);
+          return res.status(404).send(`Provider not found: ${provider}`);
         }
         req.provider = provider;
       } catch (e) {
@@ -189,41 +185,57 @@ app.get('/users/:userId/books/:bookId', (req, res) => {
   })
 
 
-  function middleware1(req, res, next) {
-    if(req.query.num >= 1) {
-        next();
+  function middleware1(req: Request, res: Response, next: NextFunction) {
+    const num = parseInt(req.query.num as string, 10);
+    if (!isNaN(num) && num >= 1) {
+      next();
     } else {
-        res.json({message: "failed validation 1"});
+      res.json({ message: "failed validation 1" });
     }
-}
+  }
 
 // exploitable!
-function middleware2(req, res, next) {
-    if(req.query.num >= 2) {
-        next();
-    } else {
-        res.send(`failed validation ${req.query.num}`);
-    }
-}
-
-function middleware3(req, res, next) {
-    if(req.query.num >= 3) {
-        next();
-    } else {
-        res.json({message: "failed validation 3"});
-    }
-}
-
-// exploitable, but UNUSED!
-function middleware4(req, res, next) {
-  if(req.query.num >= 4) {
-      next();
+function middleware2(req: Request, res:Response, next:NextFunction) {
+  const num = parseInt(req.query.num as string, 10);
+  if(!isNaN(num) && num >= 2) {
+    next();
   } else {
-      res.send(`failed validation ${req.query.num}`);
+    res.send(`failed validation 2 ${req.query.num}`);
   }
 }
 
-function combination(req, res, next) {
+// exploitable, but type any
+function middleware3(req: any, res:Response, next:NextFunction) {
+  const num = parseInt(req.query.num as string, 10);
+  if(!isNaN(num) && num >= 3) {
+    next();
+  } else {
+    res.send(`failed validation 3 ${req.query.num}`);
+  }
+}
+
+// exploitable, but UNUSED!
+function middleware4(req: any, res:Response, next:NextFunction) {
+  const num = parseInt(req.query.num as string, 10);
+  if(!isNaN(num) && num >= 4) {
+      next();
+  } else {
+      res.send(`failed validation 4 ${req.query.num}`);
+  }
+}
+
+// exploitable, but UNUSED!
+// request is 
+function middleware5(req: any, res:Response, next:NextFunction) {
+  const num = parseInt(req.query.num as string, 10);
+  if(!isNaN(num) && num >= 5) {
+      next();
+  } else {
+      res.send(`failed validation 5 ${req.query.num}`);
+  }
+}
+
+function combination(req: Request, res:Response, next:NextFunction) {
     middleware1(req, res, function () {
         middleware2(req, res, function () {
             middleware3(req, res, function () {
@@ -243,7 +255,7 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 
-function isValidUserId(id) {
+function isValidUserId(id: string | number) {
     if (id == "0") return true;
     return false;
   }
