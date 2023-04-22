@@ -4592,8 +4592,8 @@
             },
             "region" : {
               "startLine" : 86,
-              "startColumn" : 5,
-              "endColumn" : 6
+              "startColumn" : 56,
+              "endColumn" : 57
             }
           }
         } ],
@@ -6138,7 +6138,7 @@
         }
       } ],
       "partialFingerprints" : {
-        "primaryLocationLineHash" : "403a569bd3a4b316:1",
+        "primaryLocationLineHash" : "26efcf33310da78d:1",
         "primaryLocationStartColumnFingerprint" : "9"
       },
       "codeFlows" : [ {
@@ -6194,6 +6194,180 @@
             "startLine" : 203,
             "startColumn" : 37,
             "endColumn" : 50
+          }
+        },
+        "message" : {
+          "text" : "user-provided value"
+        }
+      } ]
+    }, {
+      "ruleId" : "js/reflected-xss",
+      "ruleIndex" : 24,
+      "rule" : {
+        "id" : "js/reflected-xss",
+        "index" : 24
+      },
+      "message" : {
+        "text" : "Cross-site scripting vulnerability due to a [user-provided value](1)."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app.ts",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 213,
+            "startColumn" : 14,
+            "endColumn" : 52
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "7ac72da07297152a:1",
+        "primaryLocationStartColumnFingerprint" : "9"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 213,
+                  "startColumn" : 37,
+                  "endColumn" : 50
+                }
+              },
+              "message" : {
+                "text" : "req.query.num"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 213,
+                  "startColumn" : 14,
+                  "endColumn" : 52
+                }
+              },
+              "message" : {
+                "text" : "`failed ... y.num}`"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app.ts",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 213,
+            "startColumn" : 37,
+            "endColumn" : 50
+          }
+        },
+        "message" : {
+          "text" : "user-provided value"
+        }
+      } ]
+    }, {
+      "ruleId" : "js/reflected-xss",
+      "ruleIndex" : 24,
+      "rule" : {
+        "id" : "js/reflected-xss",
+        "index" : 24
+      },
+      "message" : {
+        "text" : "Cross-site scripting vulnerability due to a [user-provided value](1)."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app.ts",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 223,
+            "startColumn" : 16,
+            "endColumn" : 54
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "2bfe1bd041ab37fe:1",
+        "primaryLocationStartColumnFingerprint" : "9"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 223,
+                  "startColumn" : 39,
+                  "endColumn" : 52
+                }
+              },
+              "message" : {
+                "text" : "req.query.num"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "app.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 0
+                },
+                "region" : {
+                  "startLine" : 223,
+                  "startColumn" : 16,
+                  "endColumn" : 54
+                }
+              },
+              "message" : {
+                "text" : "`failed ... y.num}`"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "app.ts",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 0
+          },
+          "region" : {
+            "startLine" : 223,
+            "startColumn" : 39,
+            "endColumn" : 52
           }
         },
         "message" : {
@@ -6323,7 +6497,7 @@
         },
         "ruleId" : "js/summary/lines-of-code",
         "ruleIndex" : 84,
-        "value" : 353
+        "value" : 387
       }, {
         "rule" : {
           "id" : "js/summary/lines-of-user-code",
@@ -6331,7 +6505,7 @@
         },
         "ruleId" : "js/summary/lines-of-user-code",
         "ruleIndex" : 85,
-        "value" : 353
+        "value" : 387
       } ],
       "semmle.formatSpecifier" : "sarif-latest"
     }

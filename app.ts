@@ -184,13 +184,13 @@ app.get('/users/:userId/books/:bookId', (req, res) => {
     res.send(req.params)
   })
 
-
+  // json output not exploitable
   function middleware1(req: Request, res: Response, next: NextFunction) {
     const num = parseInt(req.query.num as string, 10);
     if (!isNaN(num) && num >= 1) {
       next();
     } else {
-      res.json({ message: "failed validation 1" });
+      res.json({ message: `failed validation 1 ${req.query.num}` });
     }
   }
 
@@ -215,7 +215,8 @@ function middleware3(req: any, res:Response, next:NextFunction) {
 }
 
 // exploitable, but UNUSED!
-function middleware4(req: any, res:Response, next:NextFunction) {
+// request is specifically of type Request!
+function middleware4(req: Request, res:Response, next:NextFunction) {
   const num = parseInt(req.query.num as string, 10);
   if(!isNaN(num) && num >= 4) {
       next();
@@ -225,13 +226,24 @@ function middleware4(req: any, res:Response, next:NextFunction) {
 }
 
 // exploitable, but UNUSED!
-// request is 
+// request is of type any
 function middleware5(req: any, res:Response, next:NextFunction) {
   const num = parseInt(req.query.num as string, 10);
   if(!isNaN(num) && num >= 5) {
       next();
   } else {
       res.send(`failed validation 5 ${req.query.num}`);
+  }
+}
+
+// exploitable, but UNUSED!
+// no type due to noImplicitAny true in tsconfig
+function middleware6(req, res:Response, next:NextFunction) {
+  const num = parseInt(req.query.num as string, 10);
+  if(!isNaN(num) && num >= 6) {
+      next();
+  } else {
+      res.send(`failed validation 6 ${req.query.num}`);
   }
 }
 

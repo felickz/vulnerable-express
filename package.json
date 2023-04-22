@@ -6,6 +6,8 @@
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/app.js",
+    "codeql-create": "codeql database create --language=javascript ./vulnerable-express_db --overwrite",
+    "codeql-analyze": "codeql database analyze ./vulnerable-express_db --format=sarif-latest --output=codeql.sarif javascript-code-scanning.qls",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

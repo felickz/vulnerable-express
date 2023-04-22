@@ -226,7 +226,7 @@ function middleware4(req, res, next) {
     }
 }
 // exploitable, but UNUSED!
-// request is 
+// request is of type any
 function middleware5(req, res, next) {
     const num = parseInt(req.query.num, 10);
     if (!isNaN(num) && num >= 5) {
@@ -234,6 +234,17 @@ function middleware5(req, res, next) {
     }
     else {
         res.send(`failed validation 5 ${req.query.num}`);
+    }
+}
+// exploitable, but UNUSED!
+// no type due to noImplicitAny true in tsconfig
+function middleware6(req, res, next) {
+    const num = parseInt(req.query.num, 10);
+    if (!isNaN(num) && num >= 6) {
+        next();
+    }
+    else {
+        res.send(`failed validation 6 ${req.query.num}`);
     }
 }
 function combination(req, res, next) {
