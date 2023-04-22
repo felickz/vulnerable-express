@@ -6,6 +6,9 @@
 //Docs ( lists content-types that can be used for XSS) - https://portswigger.net/web-security/cross-site-scripting/cheat-sheet#content-types
 
 import express, { Express, NextFunction, Request, Response } from 'express';
+import injectors from './injectors';
+
+
 const app: Express = express();
 const port = 3000
 
@@ -261,6 +264,12 @@ function combination(req: Request, res:Response, next:NextFunction) {
 // Vulnerable: js/reflected-xss in middleware2
 app.get('/handler', combination, function (req, res) {
   res.send('Passed All Validation!');
+})
+
+//Check out! http://localhost:3000/injectors/1
+// Vulnerable!
+app.get('/injectors/:providerId', injectors, function (req, res) {
+  res.send('Passed All Validation and Injectors!');
 })
 
 app.listen(port, () => {
