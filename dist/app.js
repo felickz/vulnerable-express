@@ -18,6 +18,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 //Docs ( lists content-types that can be used for XSS) - https://portswigger.net/web-security/cross-site-scripting/cheat-sheet#content-types
 const express_1 = __importDefault(require("express"));
+const injectors_1 = __importDefault(require("./injectors"));
 const app = (0, express_1.default)();
 const port = 3000;
 //Check out! http://localhost:3000/
@@ -186,13 +187,14 @@ app.get('/users/:userId/books/:bookId', (req, res) => {
     }
     res.send(req.params);
 });
+// json output not exploitable
 function middleware1(req, res, next) {
     const num = parseInt(req.query.num, 10);
     if (!isNaN(num) && num >= 1) {
         next();
     }
     else {
-        res.json({ message: "failed validation 1" });
+        res.json({ message: `failed validation 1 ${req.query.num}` });
     }
 }
 // exploitable!
@@ -216,6 +218,7 @@ function middleware3(req, res, next) {
     }
 }
 // exploitable, but UNUSED!
+// request is specifically of type Request!
 function middleware4(req, res, next) {
     const num = parseInt(req.query.num, 10);
     if (!isNaN(num) && num >= 4) {
@@ -260,6 +263,11 @@ function combination(req, res, next) {
 // Vulnerable: js/reflected-xss in middleware2
 app.get('/handler', combination, function (req, res) {
     res.send('Passed All Validation!');
+});
+//Check out! http://localhost:3000/injectors/1
+// Vulnerable!
+app.get('/injectors/:providerId', injectors_1.default, function (req, res) {
+    res.send('Passed All Validation and Injectors!');
 });
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);

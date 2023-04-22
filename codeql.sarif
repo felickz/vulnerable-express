@@ -2460,7 +2460,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 3,
@@ -2488,7 +2488,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 5,
@@ -2516,7 +2516,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 6,
@@ -2544,7 +2544,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 7,
@@ -2572,7 +2572,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 8,
@@ -2600,7 +2600,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 9,
@@ -2628,7 +2628,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 10,
@@ -2656,7 +2656,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 11,
@@ -2684,7 +2684,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 13,
@@ -2712,7 +2712,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 14,
@@ -2740,7 +2740,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 15,
@@ -2768,7 +2768,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 16,
@@ -2796,7 +2796,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 17,
@@ -2824,7 +2824,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 18,
@@ -2852,7 +2852,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 19,
@@ -2880,7 +2880,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 20,
@@ -2908,7 +2908,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 21,
@@ -2936,7 +2936,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 22,
@@ -2964,7 +2964,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 23,
@@ -2992,7 +2992,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 24,
@@ -3020,7 +3020,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 25,
@@ -3048,7 +3048,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 27,
@@ -3076,7 +3076,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 28,
@@ -3104,7 +3104,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 29,
@@ -3132,7 +3132,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 30,
@@ -3160,7 +3160,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 31,
@@ -3188,7 +3188,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 32,
@@ -3216,7 +3216,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 33,
@@ -3244,7 +3244,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 34,
@@ -3272,7 +3272,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 35,
@@ -3300,7 +3300,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 36,
@@ -3328,7 +3328,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 37,
@@ -3356,7 +3356,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 38,
@@ -3384,7 +3384,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 39,
@@ -3412,7 +3412,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 40,
@@ -3440,7 +3440,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 41,
@@ -3468,7 +3468,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 42,
@@ -3496,7 +3496,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 43,
@@ -3524,7 +3524,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 44,
@@ -3552,7 +3552,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 46,
@@ -3580,7 +3580,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 47,
@@ -3608,7 +3608,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 48,
@@ -3636,7 +3636,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 49,
@@ -3664,7 +3664,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 51,
@@ -3692,7 +3692,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 52,
@@ -3720,7 +3720,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 53,
@@ -3748,7 +3748,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 54,
@@ -3776,7 +3776,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 55,
@@ -3804,7 +3804,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 56,
@@ -3832,7 +3832,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 57,
@@ -3860,7 +3860,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 58,
@@ -3888,7 +3888,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 59,
@@ -3916,7 +3916,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 60,
@@ -3944,7 +3944,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 61,
@@ -3972,7 +3972,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 62,
@@ -4000,7 +4000,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 63,
@@ -4028,7 +4028,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 64,
@@ -4056,7 +4056,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 65,
@@ -4084,7 +4084,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 66,
@@ -4112,7 +4112,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 67,
@@ -4140,7 +4140,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 68,
@@ -4168,7 +4168,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 69,
@@ -4196,7 +4196,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 70,
@@ -4224,7 +4224,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 71,
@@ -4252,7 +4252,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 72,
@@ -4280,7 +4280,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 73,
@@ -4308,7 +4308,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 74,
@@ -4336,7 +4336,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 76,
@@ -4364,7 +4364,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 77,
@@ -4392,7 +4392,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 78,
@@ -4420,7 +4420,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 79,
@@ -4448,7 +4448,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 80,
@@ -4476,7 +4476,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 81,
@@ -4504,7 +4504,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 82,
@@ -4532,7 +4532,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 84,
@@ -4560,7 +4560,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 85,
@@ -4588,7 +4588,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 86,
@@ -4616,7 +4616,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 87,
@@ -4644,7 +4644,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 88,
@@ -4672,7 +4672,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 89,
@@ -4700,7 +4700,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 90,
@@ -4728,7 +4728,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 91,
@@ -4756,7 +4756,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 92,
@@ -4784,7 +4784,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 93,
@@ -4812,7 +4812,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 94,
@@ -4840,7 +4840,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 95,
@@ -4868,7 +4868,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 96,
@@ -4896,7 +4896,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 97,
@@ -4924,7 +4924,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 98,
@@ -4952,7 +4952,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 99,
@@ -4980,7 +4980,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 100,
@@ -5008,7 +5008,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 101,
@@ -5036,7 +5036,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 102,
@@ -5064,7 +5064,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 103,
@@ -5092,7 +5092,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 105,
@@ -5120,7 +5120,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 106,
@@ -5148,7 +5148,7 @@
             "artifactLocation" : {
               "uri" : "tsconfig.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 2
+              "index" : 3
             },
             "region" : {
               "startLine" : 107,
@@ -5199,6 +5199,52 @@
             "artifactLocation" : {
               "uri" : "dist/app.js",
               "uriBaseId" : "%SRCROOT%",
+              "index" : 2
+            }
+          }
+        } ],
+        "message" : {
+          "text" : ""
+        },
+        "level" : "none",
+        "descriptor" : {
+          "id" : "js/diagnostics/successfully-extracted-files",
+          "index" : 1
+        },
+        "properties" : {
+          "formattedMessage" : {
+            "text" : ""
+          }
+        }
+      }, {
+        "locations" : [ {
+          "physicalLocation" : {
+            "artifactLocation" : {
+              "uri" : "dist/injectors.js",
+              "uriBaseId" : "%SRCROOT%",
+              "index" : 4
+            }
+          }
+        } ],
+        "message" : {
+          "text" : ""
+        },
+        "level" : "none",
+        "descriptor" : {
+          "id" : "js/diagnostics/successfully-extracted-files",
+          "index" : 1
+        },
+        "properties" : {
+          "formattedMessage" : {
+            "text" : ""
+          }
+        }
+      }, {
+        "locations" : [ {
+          "physicalLocation" : {
+            "artifactLocation" : {
+              "uri" : "injectors.ts",
+              "uriBaseId" : "%SRCROOT%",
               "index" : 1
             }
           }
@@ -5222,7 +5268,7 @@
             "artifactLocation" : {
               "uri" : "package.json",
               "uriBaseId" : "%SRCROOT%",
-              "index" : 3
+              "index" : 5
             }
           }
         } ],
@@ -5250,21 +5296,33 @@
       }
     }, {
       "location" : {
-        "uri" : "dist/app.js",
+        "uri" : "injectors.ts",
         "uriBaseId" : "%SRCROOT%",
         "index" : 1
       }
     }, {
       "location" : {
-        "uri" : "tsconfig.json",
+        "uri" : "dist/app.js",
         "uriBaseId" : "%SRCROOT%",
         "index" : 2
       }
     }, {
       "location" : {
-        "uri" : "package.json",
+        "uri" : "tsconfig.json",
         "uriBaseId" : "%SRCROOT%",
         "index" : 3
+      }
+    }, {
+      "location" : {
+        "uri" : "dist/injectors.js",
+        "uriBaseId" : "%SRCROOT%",
+        "index" : 4
+      }
+    }, {
+      "location" : {
+        "uri" : "package.json",
+        "uriBaseId" : "%SRCROOT%",
+        "index" : 5
       }
     } ],
     "results" : [ {
@@ -5285,7 +5343,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 37,
+            "startLine" : 40,
             "startColumn" : 16,
             "endColumn" : 86
           }
@@ -5306,7 +5364,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 37,
+                  "startLine" : 40,
                   "startColumn" : 35,
                   "endColumn" : 48
                 }
@@ -5324,7 +5382,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 37,
+                  "startLine" : 40,
                   "startColumn" : 16,
                   "endColumn" : 86
                 }
@@ -5346,7 +5404,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 37,
+                  "startLine" : 40,
                   "startColumn" : 69,
                   "endColumn" : 86
                 }
@@ -5364,7 +5422,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 37,
+                  "startLine" : 40,
                   "startColumn" : 16,
                   "endColumn" : 86
                 }
@@ -5385,7 +5443,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 37,
+            "startLine" : 40,
             "startColumn" : 35,
             "endColumn" : 48
           }
@@ -5402,7 +5460,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 37,
+            "startLine" : 40,
             "startColumn" : 69,
             "endColumn" : 86
           }
@@ -5429,7 +5487,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 49,
+            "startLine" : 52,
             "startColumn" : 16,
             "endColumn" : 48
           }
@@ -5450,7 +5508,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 49,
+                  "startLine" : 52,
                   "startColumn" : 35,
                   "endColumn" : 48
                 }
@@ -5468,7 +5526,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 49,
+                  "startLine" : 52,
                   "startColumn" : 16,
                   "endColumn" : 48
                 }
@@ -5489,7 +5547,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 49,
+            "startLine" : 52,
             "startColumn" : 35,
             "endColumn" : 48
           }
@@ -5516,7 +5574,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 62,
+            "startLine" : 65,
             "startColumn" : 16,
             "endColumn" : 37
           }
@@ -5537,7 +5595,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 59,
+                  "startLine" : 62,
                   "startColumn" : 13,
                   "endColumn" : 15
                 }
@@ -5555,7 +5613,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 59,
+                  "startLine" : 62,
                   "startColumn" : 11,
                   "endColumn" : 30
                 }
@@ -5573,7 +5631,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 62,
+                  "startLine" : 65,
                   "startColumn" : 35,
                   "endColumn" : 37
                 }
@@ -5591,7 +5649,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 62,
+                  "startLine" : 65,
                   "startColumn" : 16,
                   "endColumn" : 37
                 }
@@ -5612,7 +5670,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 59,
+            "startLine" : 62,
             "startColumn" : 13,
             "endColumn" : 15
           }
@@ -5639,7 +5697,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 81,
+            "startLine" : 84,
             "startColumn" : 16,
             "endColumn" : 37
           }
@@ -5660,7 +5718,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 71,
+                  "startLine" : 74,
                   "startColumn" : 13,
                   "endColumn" : 15
                 }
@@ -5678,7 +5736,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 71,
+                  "startLine" : 74,
                   "startColumn" : 11,
                   "endColumn" : 30
                 }
@@ -5696,7 +5754,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 81,
+                  "startLine" : 84,
                   "startColumn" : 35,
                   "endColumn" : 37
                 }
@@ -5714,7 +5772,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 81,
+                  "startLine" : 84,
                   "startColumn" : 16,
                   "endColumn" : 37
                 }
@@ -5735,7 +5793,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 71,
+            "startLine" : 74,
             "startColumn" : 13,
             "endColumn" : 15
           }
@@ -5762,7 +5820,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 99,
+            "startLine" : 102,
             "startColumn" : 16,
             "endColumn" : 37
           }
@@ -5783,7 +5841,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 89,
+                  "startLine" : 92,
                   "startColumn" : 13,
                   "endColumn" : 15
                 }
@@ -5801,7 +5859,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 89,
+                  "startLine" : 92,
                   "startColumn" : 11,
                   "endColumn" : 30
                 }
@@ -5819,7 +5877,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 99,
+                  "startLine" : 102,
                   "startColumn" : 35,
                   "endColumn" : 37
                 }
@@ -5837,7 +5895,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 99,
+                  "startLine" : 102,
                   "startColumn" : 16,
                   "endColumn" : 37
                 }
@@ -5858,7 +5916,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 89,
+            "startLine" : 92,
             "startColumn" : 13,
             "endColumn" : 15
           }
@@ -5885,7 +5943,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 135,
+            "startLine" : 138,
             "startColumn" : 14,
             "endColumn" : 39
           }
@@ -5906,7 +5964,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 125,
+                  "startLine" : 128,
                   "startColumn" : 11,
                   "endColumn" : 13
                 }
@@ -5924,7 +5982,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 125,
+                  "startLine" : 128,
                   "startColumn" : 9,
                   "endColumn" : 28
                 }
@@ -5942,7 +6000,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 135,
+                  "startLine" : 138,
                   "startColumn" : 35,
                   "endColumn" : 37
                 }
@@ -5960,7 +6018,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 135,
+                  "startLine" : 138,
                   "startColumn" : 14,
                   "endColumn" : 39
                 }
@@ -5981,7 +6039,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 125,
+            "startLine" : 128,
             "startColumn" : 11,
             "endColumn" : 13
           }
@@ -6008,7 +6066,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 156,
+            "startLine" : 159,
             "startColumn" : 17,
             "endColumn" : 62
           }
@@ -6029,7 +6087,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 145,
+                  "startLine" : 148,
                   "startColumn" : 13,
                   "endColumn" : 23
                 }
@@ -6047,7 +6105,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 145,
+                  "startLine" : 148,
                   "startColumn" : 11,
                   "endColumn" : 38
                 }
@@ -6065,7 +6123,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 156,
+                  "startLine" : 159,
                   "startColumn" : 50,
                   "endColumn" : 60
                 }
@@ -6083,7 +6141,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 156,
+                  "startLine" : 159,
                   "startColumn" : 17,
                   "endColumn" : 62
                 }
@@ -6104,7 +6162,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 145,
+            "startLine" : 148,
             "startColumn" : 13,
             "endColumn" : 23
           }
@@ -6131,7 +6189,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 203,
+            "startLine" : 206,
             "startColumn" : 14,
             "endColumn" : 52
           }
@@ -6152,7 +6210,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 203,
+                  "startLine" : 206,
                   "startColumn" : 37,
                   "endColumn" : 50
                 }
@@ -6170,7 +6228,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 203,
+                  "startLine" : 206,
                   "startColumn" : 14,
                   "endColumn" : 52
                 }
@@ -6191,7 +6249,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 203,
+            "startLine" : 206,
             "startColumn" : 37,
             "endColumn" : 50
           }
@@ -6218,14 +6276,14 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 213,
+            "startLine" : 216,
             "startColumn" : 14,
             "endColumn" : 52
           }
         }
       } ],
       "partialFingerprints" : {
-        "primaryLocationLineHash" : "7ac72da07297152a:1",
+        "primaryLocationLineHash" : "65f574f2bcd0e07d:1",
         "primaryLocationStartColumnFingerprint" : "9"
       },
       "codeFlows" : [ {
@@ -6239,7 +6297,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 213,
+                  "startLine" : 216,
                   "startColumn" : 37,
                   "endColumn" : 50
                 }
@@ -6257,7 +6315,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 213,
+                  "startLine" : 216,
                   "startColumn" : 14,
                   "endColumn" : 52
                 }
@@ -6278,7 +6336,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 213,
+            "startLine" : 216,
             "startColumn" : 37,
             "endColumn" : 50
           }
@@ -6305,7 +6363,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 223,
+            "startLine" : 227,
             "startColumn" : 16,
             "endColumn" : 54
           }
@@ -6326,7 +6384,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 223,
+                  "startLine" : 227,
                   "startColumn" : 39,
                   "endColumn" : 52
                 }
@@ -6344,7 +6402,7 @@
                   "index" : 0
                 },
                 "region" : {
-                  "startLine" : 223,
+                  "startLine" : 227,
                   "startColumn" : 16,
                   "endColumn" : 54
                 }
@@ -6365,9 +6423,255 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 223,
+            "startLine" : 227,
             "startColumn" : 39,
             "endColumn" : 52
+          }
+        },
+        "message" : {
+          "text" : "user-provided value"
+        }
+      } ]
+    }, {
+      "ruleId" : "js/reflected-xss",
+      "ruleIndex" : 24,
+      "rule" : {
+        "id" : "js/reflected-xss",
+        "index" : 24
+      },
+      "message" : {
+        "text" : "Cross-site scripting vulnerability due to a [user-provided value](1)."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "injectors.ts",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 1
+          },
+          "region" : {
+            "startLine" : 40,
+            "startColumn" : 41,
+            "endColumn" : 76
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "ed88ee03c65f34c7:2",
+        "primaryLocationStartColumnFingerprint" : "28"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "injectors.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 35,
+                  "startColumn" : 15,
+                  "endColumn" : 25
+                }
+              },
+              "message" : {
+                "text" : "providerId"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "injectors.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 35,
+                  "startColumn" : 13,
+                  "endColumn" : 40
+                }
+              },
+              "message" : {
+                "text" : "providerId"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "injectors.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 40,
+                  "startColumn" : 64,
+                  "endColumn" : 74
+                }
+              },
+              "message" : {
+                "text" : "providerId"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "injectors.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 40,
+                  "startColumn" : 41,
+                  "endColumn" : 76
+                }
+              },
+              "message" : {
+                "text" : "`Provid ... derId}`"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "injectors.ts",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 1
+          },
+          "region" : {
+            "startLine" : 35,
+            "startColumn" : 15,
+            "endColumn" : 25
+          }
+        },
+        "message" : {
+          "text" : "user-provided value"
+        }
+      } ]
+    }, {
+      "ruleId" : "js/reflected-xss",
+      "ruleIndex" : 24,
+      "rule" : {
+        "id" : "js/reflected-xss",
+        "index" : 24
+      },
+      "message" : {
+        "text" : "Cross-site scripting vulnerability due to a [user-provided value](1)."
+      },
+      "locations" : [ {
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "injectors.ts",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 1
+          },
+          "region" : {
+            "startLine" : 46,
+            "startColumn" : 19,
+            "endColumn" : 64
+          }
+        }
+      } ],
+      "partialFingerprints" : {
+        "primaryLocationLineHash" : "4b8cb79773439d76:2",
+        "primaryLocationStartColumnFingerprint" : "6"
+      },
+      "codeFlows" : [ {
+        "threadFlows" : [ {
+          "locations" : [ {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "injectors.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 35,
+                  "startColumn" : 15,
+                  "endColumn" : 25
+                }
+              },
+              "message" : {
+                "text" : "providerId"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "injectors.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 35,
+                  "startColumn" : 13,
+                  "endColumn" : 40
+                }
+              },
+              "message" : {
+                "text" : "providerId"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "injectors.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 46,
+                  "startColumn" : 52,
+                  "endColumn" : 62
+                }
+              },
+              "message" : {
+                "text" : "providerId"
+              }
+            }
+          }, {
+            "location" : {
+              "physicalLocation" : {
+                "artifactLocation" : {
+                  "uri" : "injectors.ts",
+                  "uriBaseId" : "%SRCROOT%",
+                  "index" : 1
+                },
+                "region" : {
+                  "startLine" : 46,
+                  "startColumn" : 19,
+                  "endColumn" : 64
+                }
+              },
+              "message" : {
+                "text" : "`Could  ... derId}`"
+              }
+            }
+          } ]
+        } ]
+      } ],
+      "relatedLocations" : [ {
+        "id" : 1,
+        "physicalLocation" : {
+          "artifactLocation" : {
+            "uri" : "injectors.ts",
+            "uriBaseId" : "%SRCROOT%",
+            "index" : 1
+          },
+          "region" : {
+            "startLine" : 35,
+            "startColumn" : 15,
+            "endColumn" : 25
           }
         },
         "message" : {
@@ -6392,7 +6696,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 27,
+            "startLine" : 30,
             "startColumn" : 39,
             "endColumn" : 81
           }
@@ -6420,7 +6724,7 @@
             "index" : 0
           },
           "region" : {
-            "startLine" : 27,
+            "startLine" : 30,
             "startColumn" : 39,
             "endColumn" : 64
           }
@@ -6445,10 +6749,10 @@
           "artifactLocation" : {
             "uri" : "dist/app.js",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 1
+            "index" : 2
           },
           "region" : {
-            "startLine" : 36,
+            "startLine" : 37,
             "startColumn" : 39,
             "endColumn" : 82
           }
@@ -6473,10 +6777,10 @@
           "artifactLocation" : {
             "uri" : "dist/app.js",
             "uriBaseId" : "%SRCROOT%",
-            "index" : 1
+            "index" : 2
           },
           "region" : {
-            "startLine" : 36,
+            "startLine" : 37,
             "startColumn" : 39,
             "endColumn" : 64
           }
@@ -6497,7 +6801,7 @@
         },
         "ruleId" : "js/summary/lines-of-code",
         "ruleIndex" : 84,
-        "value" : 387
+        "value" : 505
       }, {
         "rule" : {
           "id" : "js/summary/lines-of-user-code",
@@ -6505,7 +6809,7 @@
         },
         "ruleId" : "js/summary/lines-of-user-code",
         "ruleIndex" : 85,
-        "value" : 387
+        "value" : 505
       } ],
       "semmle.formatSpecifier" : "sarif-latest"
     }
